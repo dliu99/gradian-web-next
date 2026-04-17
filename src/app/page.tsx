@@ -185,7 +185,7 @@ export default function Home() {
           <div className="flex gap-6 text-sm text-zinc-500 font-medium tracking-tight">
             <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
             <a href="/terms" className="hover:text-white transition-colors">Terms</a>
-            <a href="mailto:shlokmadhekar88@gmail.com" className="hover:text-white transition-colors">Contact</a>
+            <a href="mailto:devin78988@gmail.com" className="hover:text-white transition-colors">Contact</a>
           </div>
 
           <div className="text-sm text-zinc-600 font-bold">
