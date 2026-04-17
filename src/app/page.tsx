@@ -3,10 +3,6 @@ import {
   RefreshCw,
   Target,
   CalendarClock,
-  BarChart3,
-  Download,
-  Bell,
-  Calculator,
   ShieldCheck,
 } from "lucide-react";
 import Image from "next/image";
@@ -21,22 +17,11 @@ export default function Home() {
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
               <Loader className="w-4 h-4 text-black animate-spin-slow" />
             </div>
-            <span className="text-lg font-bold tracking-tighter">Gradian</span>
-          </div>
-          <div className="hidden md:flex gap-8 text-sm font-medium text-zinc-500">
-            <a href="#features" className="hover:text-white transition-colors">
-              Features
-            </a>
-            <a
-              href="#how-it-works"
-              className="hover:text-white transition-colors"
-            >
-              How it Works
-            </a>
+            <span className="text-lg font-bold tracking-tighter">marks</span>
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://www.instagram.com/gradian.tech/"
+              href="https://www.instagram.com/trymarksapp/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-500 hover:text-white transition-colors"
@@ -57,12 +42,6 @@ export default function Home() {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
               </svg>
             </a>
-            <button
-              disabled
-              className="px-5 py-2 rounded-full bg-white/10 text-white/50 text-sm font-bold cursor-not-allowed"
-            >
-              Coming soon
-            </button>
           </div>
         </div>
       </nav>
@@ -70,17 +49,23 @@ export default function Home() {
       {/* Hero Section - High Contrast Brutalist */}
       <section className="relative pt-48 pb-32 lg:pt-64 lg:pb-40 px-6 max-w-7xl mx-auto flex flex-col items-start justify-center min-h-[80vh]">
         <h1 className="text-6xl md:text-8xl lg:text-[120px] font-bold tracking-tighter leading-[0.95] mb-8">
-          Bessy's broken.
-          <br />
-          We fixed it.
+          Marks helps you take control of your grades
         </h1>
 
         <div className="mt-12">
           <a
-            href="#learn-more"
-            className="text-4xl md:text-5xl font-bold tracking-tighter underline decoration-white/30 hover:decoration-white underline-offset-8 transition-all"
+            href="https://apps.apple.com/us/app/marks-for-infinite-campus/id6761805541"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block hover:opacity-80 transition-opacity"
           >
-            Learn more
+            <Image
+              src="/appstorebadge.svg"
+              alt="Download on the App Store"
+              width={240}
+              height={80}
+              className="h-16 w-auto"
+            />
           </a>
         </div>
       </section>
@@ -93,19 +78,20 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1 space-y-8">
             <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">
-              A Native iOS <br />
-              Experience.
+              Why Marks
             </h2>
-            <p className="text-xl text-zinc-400 font-medium max-w-md">
-              No web wrappers. Pure SwiftUI. Sync your Infinite Campus grades
-              instantly with zero lag.
+            <p className="text-xl text-zinc-400 font-medium max-w-2xl">
+              Marks is the best way to use Infinite Campus. View grades,
+              assignments, and other important information in a faster, cleaner
+              interface designed for students.
             </p>
+
           </div>
 
           <div className="flex-1 w-full max-w-md flex justify-center">
             <Image
               src="/simulator-screenshot.png"
-              alt="Gradian App Mockup"
+              alt="Marks App Mockup"
               width={400}
               height={800}
               className="rounded-[3rem] shadow-2xl border border-white/20 object-contain max-h-[650px] w-auto"
@@ -137,8 +123,7 @@ export default function Home() {
                   Native Sync
                 </h3>
                 <p className="text-zinc-400 text-lg font-medium max-w-md">
-                  Securely connects to Infinite Campus. Background refreshes
-                  keep your dashboard completely up to date.
+                  Get the latest updates directly from Infinite Campus.
                 </p>
               </div>
             </div>
@@ -177,30 +162,14 @@ export default function Home() {
                   <ShieldCheck className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-4xl font-bold mb-4 tracking-tighter">
-                  100% On-Device
+                  Privacy
                 </h3>
                 <p className="text-zinc-400 text-lg font-medium max-w-md">
-                  Your credentials and data never leave your phone. Everything
-                  is processed natively on-device for maximum privacy and speed.
+                Requests are made directly to Infinite Campus, with session data stored on-device and encrypted.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Footer CTA */}
-      <section className="py-32 border-t border-white/10 bg-zinc-950 text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-6xl md:text-8xl font-bold tracking-tighter mb-12">
-            Get Gradian.
-          </h2>
-          <button
-            disabled
-            className="inline-flex px-12 py-6 rounded-full bg-white/10 text-white/50 font-bold cursor-not-allowed items-center justify-center text-xl"
-          >
-            Coming soon
-          </button>
         </div>
       </section>
 
@@ -210,7 +179,7 @@ export default function Home() {
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
               <Loader className="w-3 h-3 text-black" />
             </div>
-            <span className="font-bold tracking-tighter">Gradian</span>
+            <span className="font-bold tracking-tighter">Marks</span>
           </div>
 
           <div className="flex gap-6 text-sm text-zinc-500 font-medium tracking-tight">
@@ -220,7 +189,7 @@ export default function Home() {
           </div>
 
           <div className="text-sm text-zinc-600 font-bold">
-            &copy; {new Date().getFullYear()} Gradian App.
+            &copy; {new Date().getFullYear()} Marks App.
           </div>
         </div>
       </footer>
