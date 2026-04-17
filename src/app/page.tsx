@@ -205,13 +205,20 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/10 py-12 bg-black">
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
               <Loader className="w-3 h-3 text-black" />
             </div>
             <span className="font-bold tracking-tighter">Gradian</span>
           </div>
+
+          <div className="flex gap-6 text-sm text-zinc-500 font-medium tracking-tight">
+            <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
+            <a href="/terms" className="hover:text-white transition-colors">Terms</a>
+            <a href="mailto:shlokmadhekar88@gmail.com" className="hover:text-white transition-colors">Contact</a>
+          </div>
+
           <div className="text-sm text-zinc-600 font-bold">
             &copy; {new Date().getFullYear()} Gradian App.
           </div>
