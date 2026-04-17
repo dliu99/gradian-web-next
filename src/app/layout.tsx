@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Marks | Download Today",
   description:
-    "A seamless, beautiful interface to take control of your grades",
+    "The #1 interface for Infinite Campus",
   keywords: [
     "Infinite Campus",
     "Marks app",
