@@ -3,30 +3,29 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Gradian — Master Your Grades",
+  title: "Marks | Download Today",
   description:
-    "Seamlessly sync with Infinite Campus, predict final grades instantly, and manage your schedule with an intelligent, natively designed iOS experience.",
+    "A seamless, beautiful interface to take control of your grades",
   keywords: [
     "Infinite Campus",
-    "Grades App",
-    "Student Planner",
-    "Finals Calculator",
-    "Gradian",
-    "iOS",
+    "Marks app",
+    "Bessy",
+    "Bessy app",
+    "Marks infinite campus"
   ],
   authors: [{ name: "Gradian" }],
   openGraph: {
     title: "Gradian — Master Your Grades",
     description:
       "Seamlessly sync with Infinite Campus, predict final grades instantly, and manage your schedule.",
-    url: "https://gradian.tech",
+    url: "https://marks.cx",
     siteName: "Gradian",
     images: [
       {
         url: "/simulator-screenshot.png",
         width: 1200,
         height: 630,
-        alt: "Gradian App Preview",
+        alt: "Marks App Preview",
       },
     ],
     locale: "en_US",
@@ -34,12 +33,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gradian — Master Your Grades",
+    title: "Marks | Download Today",
     description:
-      "Seamlessly sync with Infinite Campus, predict final grades instantly, and manage your schedule.",
+      "The #1 interface for Infinite Campus",
     images: ["/simulator-screenshot.png"],
   },
-  metadataBase: new URL("https://gradian.tech"),
+  metadataBase: new URL("https://marks.cx"),
 };
 
 export default function RootLayout({
