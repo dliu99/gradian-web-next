@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Loader } from "lucide-react";
+
 
 export default function PrivacyPolicy() {
   return (
@@ -8,9 +8,6 @@ export default function PrivacyPolicy() {
       <nav className="fixed w-full z-50 glass-nav border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-              <Loader className="w-4 h-4 text-black" />
-            </div>
             <span className="text-lg font-bold tracking-tighter">Marks</span>
           </Link>
         </div>

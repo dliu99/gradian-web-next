@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Loader } from "lucide-react";
+
 
 export default function TermsOfService() {
   return (
@@ -9,7 +9,6 @@ export default function TermsOfService() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
           <Link href="/" className="flex items-center gap-3">
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-              <Loader className="w-4 h-4 text-black" />
             </div>
             <span className="text-lg font-bold tracking-tighter">Marks</span>
           </Link>
@@ -41,7 +40,7 @@ export default function TermsOfService() {
           </p>
           <h2 className="text-2xl font-bold text-white mt-12 mb-4">4. Contact Information</h2>
           <p>
-            For any questions or concerns regarding these terms, please contact us at: <a href="mailto:shlokmadhekar88@gmail.com" className="text-white underline underline-offset-4">shlokmadhekar88@gmail.com</a>
+            For any questions or concerns regarding these terms, please contact us at: <a href="mailto:devin78988@gmail.com" className="text-white underline underline-offset-4">shlokmadhekar88@gmail.com</a>
           </p>
         </div>
       </section>
