@@ -10,13 +10,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-black text-white selection:bg-white/30">
-      {/* Navigation - Ultra Minimal Glass */}
+
       <nav className="fixed w-full z-50 glass-nav border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <span className="text-lg font-bold tracking-tighter">marks</span>
           </div>
-          <div className="flex items-center gap-4">
+          {/*<div className="flex items-center gap-4">
             <a
               href="https://www.instagram.com/trymarksapp/"
               target="_blank"
@@ -39,7 +39,7 @@ export default function Home() {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
               </svg>
             </a>
-          </div>
+          </div>*/}
         </div>
       </nav>
 

@@ -10,7 +10,7 @@ export default function TermsOfService() {
           <Link href="/" className="flex items-center gap-3">
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
             </div>
-            <span className="text-lg font-bold tracking-tighter">Marks</span>
+            <span className="text-lg font-bold tracking-tighter">marks</span>
           </Link>
         </div>
       </nav>

@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
       <nav className="fixed w-full z-50 glass-nav border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
           <Link href="/" className="flex items-center gap-3">
-            <span className="text-lg font-bold tracking-tighter">Marks</span>
+            <span className="text-lg font-bold tracking-tighter">marks</span>
           </Link>
         </div>
       </nav>
