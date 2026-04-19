@@ -1,5 +1,4 @@
 import {
-  Loader,
   RefreshCw,
   Target,
   CalendarClock,
@@ -173,10 +172,7 @@ export default function Home() {
       <footer className="border-t border-white/10 py-12 bg-black">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-              <Loader className="w-3 h-3 text-black" />
-            </div>
-            <span className="font-bold tracking-tighter">Marks</span>
+            <span className="font-bold tracking-tighter">marks</span>
           </div>
 
           <div className="flex gap-6 text-sm text-zinc-500 font-medium tracking-tight">
