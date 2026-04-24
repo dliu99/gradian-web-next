@@ -172,7 +172,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">Team</h2>
           <p className="text-zinc-400 text-lg font-medium">
-            Built with ❤️ by {" "}
+            Made with ❤️ by {" "}
             <a
               href="https://devinliu.xyz"
               target="_blank"
