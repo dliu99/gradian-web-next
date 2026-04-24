@@ -177,11 +177,12 @@ export default function Home() {
               href="https://devinliu.xyz"
               target="_blank"
               rel="noopener noreferrer"
-              className=" font-bold tracking-tighter hover:text-zinc-300 transition-colors"
+              className="underline tracking-tighter hover:text-zinc-300 transition-colors"
             >
               Devin Liu
             </a>
-            , Vachan Bhogi, Shlok Madhekar, Nihar Manchikalapudi
+            <br></br>
+            with Vachan Bhogi, <a href="https://shlok.vercel.app" target="_blank" rel="noopener noreferrer" className="underline tracking-tighter hover:text-zinc-300 transition-colors">Shlok Madhekar</a>, Nihar Manchikalapudi
           </p>
         </div>
       </section>
