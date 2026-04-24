@@ -66,7 +66,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* App Mockup Section - Monochrome Glass */}
       <section
         id="learn-more"
         className="py-24 border-t border-white/10 relative overflow-hidden bg-zinc-950"
@@ -166,6 +165,24 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="team" className="border-t border-white/10 py-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">Team</h2>
+          <p className="text-zinc-400 text-lg font-medium">
+            Built with ❤️ by {" "}
+            <a
+              href="https://devinliu.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" font-bold tracking-tighter hover:text-zinc-300 transition-colors"
+            >
+              Devin Liu
+            </a>
+            , Vachan Bhogi, Shlok Madhekar, Nihar Manchikalapudi
+          </p>
         </div>
       </section>
 
