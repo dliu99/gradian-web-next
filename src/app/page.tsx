@@ -182,7 +182,7 @@ export default function Home() {
               Devin Liu
             </a>
             <br></br>
-            with Vachan Bhogi, <a href="https://shlok.vercel.app" target="_blank" rel="noopener noreferrer" className="underline tracking-tighter hover:text-zinc-300 transition-colors">Shlok Madhekar</a>, Nihar Manchikalapudi
+            with Vachan Bhogi, <a href="https://shlok.vercel.app" target="_blank" rel="noopener noreferrer" className="underline tracking-tighter hover:text-zinc-300 transition-colors">Shlok Madhekar</a>, <a href='https://niharm.me' target="_blank" rel="noopener noreferrer" className="underline tracking-tighter hover:text-zinc-300 transition-colors">Nihar Manchikalapudi</a>
           </p>
         </div>
       </section>
