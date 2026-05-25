@@ -48,20 +48,44 @@ export default function Home() {
           Marks helps you take control of your grades
         </h1>
 
-        <div className="mt-12">
+        <div className="mt-12 flex flex-col items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <a
+              href="https://apps.apple.com/us/app/marks-for-infinite-campus/id6761805541"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/appstorebadge.svg"
+                alt="Download on the App Store"
+                width={240}
+                height={80}
+                className="h-16 w-auto"
+              />
+            </a>
+            <a
+              href="https://groups.google.com/g/marks-beta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/googleplaybadge.svg"
+                alt="Get it on Google Play"
+                width={239}
+                height={71}
+                className="h-16 w-auto"
+              />
+            </a>
+          </div>
           <a
-            href="https://apps.apple.com/us/app/marks-for-infinite-campus/id6761805541"
+            href="https://web.marks.cx"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block hover:opacity-80 transition-opacity"
+            className="text-lg font-semibold tracking-tight underline underline-offset-4 text-zinc-300 hover:text-white transition-colors"
           >
-            <Image
-              src="/appstorebadge.svg"
-              alt="Download on the App Store"
-              width={240}
-              height={80}
-              className="h-16 w-auto"
-            />
+            [open web]
           </a>
         </div>
       </section>
