@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Bessy app",
     "Marks infinite campus"
   ],
-  authors: [{ name: "Gradian" }],
+  authors: [{ name: "Devin Liu" }],
   openGraph: {
     title: "Gradian — Master Your Grades",
     description:
