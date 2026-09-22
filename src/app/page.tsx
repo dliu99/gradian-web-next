@@ -192,9 +192,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="team" className="border-t border-white/10 py-20">
+      <section id="credits" className="border-t border-white/10 py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">Team</h2>
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">About</h2>
           <p className="text-zinc-400 text-lg font-medium">
             Made with ❤️ by {" "}
             <a
@@ -205,8 +205,18 @@ export default function Home() {
             >
               Devin Liu
             </a>
-            <br></br>
-            with Vachan Bhogi, <a href="https://shlok.vercel.app" target="_blank" rel="noopener noreferrer" className="underline tracking-tighter hover:text-zinc-300 transition-colors">Shlok Madhekar</a>, <a href='https://niharm.me' target="_blank" rel="noopener noreferrer" className="underline tracking-tighter hover:text-zinc-300 transition-colors">Nihar Manchikalapudi</a>
+          </p>
+          <p className="mt-4 text-zinc-400 text-lg font-medium">
+            Thanks to {" "}
+            <a
+              href="https://www.bessy.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline tracking-tighter hover:text-zinc-300 transition-colors"
+            >
+              Bessy
+            </a>
+            , the original Infinite Campus app. It was shut down in early 2026, which prompted us to build Marks.
           </p>
         </div>
       </section>

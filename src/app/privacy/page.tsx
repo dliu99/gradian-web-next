@@ -23,9 +23,9 @@ export default function PrivacyPolicy() {
             or uninstall.
           </p>
           <p>
-            This Privacy Policy applies to the marks app ("Application") developed
-            by Devin Liu ("Service Provider"). The Application is provided "AS
-            IS".
+            This Privacy Policy applies to the marks app (&quot;Application&quot;) developed
+            by Devin Liu (&quot;Service Provider&quot;). The Application is provided &quot;AS
+            IS&quot;.
           </p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-4">
