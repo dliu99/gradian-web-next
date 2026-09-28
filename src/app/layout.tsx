@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Marks | Download Today",
+  title: "marks.cx",
   description:
     "The #1 interface for Infinite Campus",
   keywords: [
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Devin Liu" }],
   openGraph: {
-    title: "Gradian — Master Your Grades",
+    title: "marks.cx",
     description:
       "Seamlessly sync with Infinite Campus, predict final grades instantly, and manage your schedule.",
     url: "https://marks.cx",
-    siteName: "Gradian",
+    siteName: "Marks",
     images: [
       {
         url: "/simulator-screenshot.png",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Marks | Download Today",
+    title: "marks.cx",
     description:
       "The #1 interface for Infinite Campus",
     images: ["/simulator-screenshot.png"],
