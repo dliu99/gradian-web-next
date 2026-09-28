@@ -207,6 +207,28 @@ export default function Home() {
             </a>
           </p>
           <p className="mt-4 text-zinc-400 text-lg font-medium">
+            Bugs, social media: Vachan Bhogi, {" "}
+            <a
+              href="https://niharm.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline tracking-tighter hover:text-zinc-300 transition-colors"
+            >
+              Nihar Manchikalapudi
+            </a>
+          </p>
+          <p className="mt-4 text-zinc-400 text-lg font-medium">
+            Marks web: {" "}
+            <a
+              href="https://shlok.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline tracking-tighter hover:text-zinc-300 transition-colors"
+            >
+              Shlok Madhekar
+            </a>
+          </p>
+          <p className="mt-4 text-zinc-400 text-lg font-medium">
             Thanks to {" "}
             <a
               href="https://www.bessy.io/"
@@ -216,7 +238,7 @@ export default function Home() {
             >
               Bessy
             </a>
-            , the original Infinite Campus app. It was shut down in early 2026, which prompted us to build Marks.
+            , the original Infinite Campus app. It was shut down in early 2026, which prompted me to build Marks.
           </p>
         </div>
       </section>
