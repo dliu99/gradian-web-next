@@ -1,9 +1,3 @@
-import {
-  RefreshCw,
-  Target,
-  CalendarClock,
-  ShieldCheck,
-} from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -97,7 +91,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1 space-y-8">
             <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">
-              Why Marks
+              About us
             </h2>
             <p className="text-xl text-zinc-400 font-medium max-w-2xl">
               Marks is the best way to use Infinite Campus. View grades,
@@ -120,81 +114,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Bento Grid - Monochrome Glass */}
-      <section
-        id="features"
-        className="py-32 relative border-t border-white/10"
-      >
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="mb-20">
-            <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">
-              Features
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[320px]">
-            <div className="md:col-span-2 glass-card rounded-[2.5rem] p-10 flex flex-col justify-between">
-              <div>
-                <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mb-8">
-                  <RefreshCw className="w-8 h-8 text-black" />
-                </div>
-                <h3 className="text-4xl font-bold mb-4 tracking-tighter">
-                  Native Sync
-                </h3>
-                <p className="text-zinc-400 text-lg font-medium max-w-md">
-                  Get the latest updates directly from Infinite Campus.
-                </p>
-              </div>
-            </div>
-
-            <div className="glass-card rounded-[2.5rem] p-10 flex flex-col justify-between">
-              <div>
-                <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mb-8">
-                  <Target className="w-8 h-8 text-black" />
-                </div>
-                <h3 className="text-3xl font-bold mb-4 tracking-tighter">
-                  Calculator
-                </h3>
-                <p className="text-zinc-400 font-medium">
-                  Know exactly what score you need on your finals.
-                </p>
-              </div>
-            </div>
-
-            <div className="glass-card rounded-[2.5rem] p-10 flex flex-col justify-between">
-              <div>
-                <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mb-8">
-                  <CalendarClock className="w-8 h-8 text-black" />
-                </div>
-                <h3 className="text-3xl font-bold mb-4 tracking-tighter">
-                  Schedule
-                </h3>
-                <p className="text-zinc-400 font-medium">
-                  Responsive timeline tracking your periods and bells.
-                </p>
-              </div>
-            </div>
-
-            <div className="md:col-span-2 glass-card rounded-[2.5rem] p-10 flex flex-col justify-between">
-              <div>
-                <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mb-8">
-                  <ShieldCheck className="w-8 h-8 text-black" />
-                </div>
-                <h3 className="text-4xl font-bold mb-4 tracking-tighter">
-                  Privacy
-                </h3>
-                <p className="text-zinc-400 text-lg font-medium max-w-md">
-                Requests are made directly to Infinite Campus, with session data stored on-device and encrypted.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="credits" className="border-t border-white/10 py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">About</h2>
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">Team</h2>
           <p className="text-zinc-400 text-lg font-medium">
             Made with ❤️ by {" "}
             <a
