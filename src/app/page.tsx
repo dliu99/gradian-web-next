@@ -73,14 +73,24 @@ export default function Home() {
               />
             </a>
           </div>
-          <a
-            href="https://web.marks.cx"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-lg font-semibold tracking-tight underline underline-offset-4 text-zinc-300 hover:text-white transition-colors"
-          >
-            [open web]
-          </a>
+          <div className="flex items-center gap-6">
+            <a
+              href="https://github.com/dliu99/marks"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-semibold tracking-tight underline underline-offset-4 text-zinc-300 hover:text-white transition-colors"
+            >
+              [open github]
+            </a>
+            <a
+              href="https://archive.is/LrdOa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-semibold tracking-tight underline underline-offset-4 text-zinc-300 hover:text-white transition-colors"
+            >
+              [archive]
+            </a>
+          </div>
         </div>
       </section>
 
